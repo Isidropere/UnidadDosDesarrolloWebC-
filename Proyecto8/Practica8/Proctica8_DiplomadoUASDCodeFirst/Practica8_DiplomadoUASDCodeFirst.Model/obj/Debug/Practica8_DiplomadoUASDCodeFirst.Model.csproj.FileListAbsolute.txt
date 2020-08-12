@@ -1,0 +1,11 @@
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\Practica8_DiplomadoUASDCodeFirst.Model.dll.config
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\Practica8_DiplomadoUASDCodeFirst.Model.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\Practica8_DiplomadoUASDCodeFirst.Model.pdb
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\obj\Debug\Practica8_DiplomadoUASDCodeFirst.Model.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\obj\Debug\Practica8_DiplomadoUASDCodeFirst.Model.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\obj\Debug\Practica8_DiplomadoUASDCodeFirst.Model.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\Practica8\Proctica8_DiplomadoUASDCodeFirst\Practica8_DiplomadoUASDCodeFirst.Model\obj\Debug\Practica8_DiplomadoUASDCodeFirst.Model.pdb

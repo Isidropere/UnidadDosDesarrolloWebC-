@@ -1,0 +1,11 @@
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.dll.config
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.pdb
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\obj\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\obj\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\obj\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Unidad2\Proyecto8\MVC-CRUD-DiplomadoAUSDCodeFirst\MVC-CRUD-DiplomadoUASDCodeFirst.Model\obj\Debug\MVC-CRUD-DiplomadoUASDCodeFirst.Model.pdb

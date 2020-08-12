@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\CHIP\\Desktop\\Diplomado WEB C#\\Practicas\\Unidad2\\Proyecto8\\MVC-CRUD-DiplomadoAUSDCodeFirst\\MVC-CRUD-DiplomadoAUSDCodeFirst.Web\\MVC-CRUD-DiplomadoAUSDCodeFirst.Web.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
