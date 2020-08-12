@@ -1,0 +1,15 @@
+﻿@model IEnumerable<IP_Proyecto3_Registro_Persona.Models.Persona>
+<h2>Lista de Registro de personas</h2>
+<div>
+    @{
+        var GripLista = new WebGrid(Model, defaultSort: "Nombre");
+    }
+    @GripLista.GetHtml(columns: GripLista.Columns(
+    GripLista.Column("Nombre", header: "Nombre"),
+    GripLista.Column("Apellido", header: "Apellido"),
+    GripLista.Column("Nacionalidad", header: "Nacionalidad"),
+    GripLista.Column("Sexo", header: "Sexo"),
+    GripLista.Column("Edad", header: "Edad"),
+    GripLista.Column("NumeroTelefono", header: "N:Telefono")
+   ))
+</div>

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<IP_Proyecto3_Diplomado_Web_MVC_UASD_Registro.Models.Coche>
+
+    <h2>Listados de Vehiculos</h2>
+    <div> 
+        @{
+            var grip = new WebGrid(Model, defaultSort: "Marca");
+         }
+        @grip.GetHtml(columns: grip.Columns(
+          grip.Column("Tipo", header: "Tipo"),
+          grip.Column("Marca", header: "Marca"),
+          grip.Column("Modelo", header: "Modelo"),
+          grip.Column("Color", header: "Color")
+          ))
+    </div>
+
