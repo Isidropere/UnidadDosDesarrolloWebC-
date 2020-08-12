@@ -1,0 +1,12 @@
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\MVC-CRUP-DiplomadoUASD.Models.dll.config
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\MVC-CRUP-DiplomadoUASD.Models.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\MVC-CRUP-DiplomadoUASD.Models.pdb
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\EntityFramework.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\EntityFramework.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\obj\Debug\MVC-CRUP-DiplomadoUASD.Models.csprojAssemblyReference.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\obj\Debug\MVC-CRUP-DiplomadoUASD.Models.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\obj\Debug\MVC-CRUP-DiplomadoUASD.Models.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\obj\Debug\MVC-CRUP-DiplomadoUASD.Models.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\MVC_CRUD-DiplomadoUASD\MVC-CRUP-DiplomadoUASD.Models\obj\Debug\MVC-CRUP-DiplomadoUASD.Models.pdb

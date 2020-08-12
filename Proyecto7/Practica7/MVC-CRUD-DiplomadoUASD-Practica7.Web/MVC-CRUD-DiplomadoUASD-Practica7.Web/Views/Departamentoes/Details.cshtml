@@ -1,0 +1,66 @@
+﻿@model MVC_CRUD_DiplomadoUASD.Models.Departamento
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Departamento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adm_Departamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adm_Departamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dependencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dependencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Local)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Local)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cargo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Empleado.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Empleado.Nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id_Departamento }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

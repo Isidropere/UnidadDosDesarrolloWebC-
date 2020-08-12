@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmpleadoDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="Id_Departamento" />
+    </Key>
+    <Property Name="Id_Departamento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="Adm_Departamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Dependencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Local" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cargo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Id_Empleado" Type="Int32" />
+    <NavigationProperty Name="Empleado" Relationship="Self.FK_Departamento_Departamento" FromRole="Departamento" ToRole="Empleado" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="Id_Empleado" />
+    </Key>
+    <Property Name="Id_Empleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Uno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido_Dos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cedula" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Departamentoes" Relationship="Self.FK_Departamento_Departamento" FromRole="Empleado" ToRole="Departamento" />
+  </EntityType>
+  <Association Name="FK_Departamento_Departamento">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="0..1" />
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="Id_Empleado" />
+      </Principal>
+      <Dependent Role="Departamento">
+        <PropertyRef Name="Id_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmpleadoDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departamentoes" EntityType="Self.Departamento" />
+    <EntitySet Name="Empleadoes" EntityType="Self.Empleado" />
+    <AssociationSet Name="FK_Departamento_Departamento" Association="Self.FK_Departamento_Departamento">
+      <End Role="Empleado" EntitySet="Empleadoes" />
+      <End Role="Departamento" EntitySet="Departamentoes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

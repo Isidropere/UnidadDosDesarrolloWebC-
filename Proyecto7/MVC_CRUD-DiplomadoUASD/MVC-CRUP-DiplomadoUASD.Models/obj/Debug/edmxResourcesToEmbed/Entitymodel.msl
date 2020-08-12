@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PeliculasDBModelStoreContainer" CdmEntityContainer="PeliculasDBEntitiesUNO">
+    <EntitySetMapping Name="TBL_PELICULA">
+      <EntityTypeMapping TypeName="PeliculasDBModel.TBL_PELICULA">
+        <MappingFragment StoreEntitySet="TBL_PELICULA">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="AutorPrincipal" ColumnName="AutorPrincipal" />
+          <ScalarProperty Name="No_Autor" ColumnName="No_Autor" />
+          <ScalarProperty Name="Duracion" ColumnName="Duracion" />
+          <ScalarProperty Name="Estreno" ColumnName="Estreno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

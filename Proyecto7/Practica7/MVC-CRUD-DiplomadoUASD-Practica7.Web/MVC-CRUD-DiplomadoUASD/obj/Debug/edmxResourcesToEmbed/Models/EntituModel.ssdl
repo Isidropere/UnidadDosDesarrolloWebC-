@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmpleadoDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="Id_Departamento" />
+    </Key>
+    <Property Name="Id_Departamento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="70" />
+    <Property Name="Adm_Departamento" Type="varchar" MaxLength="50" />
+    <Property Name="Dependencia" Type="varchar" MaxLength="50" />
+    <Property Name="Local" Type="varchar" MaxLength="50" />
+    <Property Name="Cargo" Type="varchar" MaxLength="50" />
+    <Property Name="Id_Empleado" Type="int" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="Id_Empleado" />
+    </Key>
+    <Property Name="Id_Empleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Apellido_Uno" Type="varchar" MaxLength="50" />
+    <Property Name="Apellido_Dos" Type="varchar" MaxLength="50" />
+    <Property Name="Cedula" Type="char" MaxLength="11" />
+    <Property Name="Telefono" Type="char" MaxLength="11" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_Departamento_Departamento">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="0..1" />
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="Id_Empleado" />
+      </Principal>
+      <Dependent Role="Departamento">
+        <PropertyRef Name="Id_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empleado_Empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Empleado1" Type="Self.Empleado" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="Id_Empleado" />
+      </Principal>
+      <Dependent Role="Empleado1">
+        <PropertyRef Name="Id_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmpleadoDBModelStoreContainer">
+    <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Departamento_Departamento" Association="Self.FK_Departamento_Departamento">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Departamento" EntitySet="Departamento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empleado_Empleado" Association="Self.FK_Empleado_Empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Empleado1" EntitySet="Empleado" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

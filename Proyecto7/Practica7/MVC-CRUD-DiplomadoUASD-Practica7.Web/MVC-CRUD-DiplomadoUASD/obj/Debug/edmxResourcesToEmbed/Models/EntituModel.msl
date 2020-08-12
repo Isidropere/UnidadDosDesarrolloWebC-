@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EmpleadoDBModelStoreContainer" CdmEntityContainer="EmpleadoDBEntities">
+    <EntitySetMapping Name="Departamentoes">
+      <EntityTypeMapping TypeName="EmpleadoDBModel.Departamento">
+        <MappingFragment StoreEntitySet="Departamento">
+          <ScalarProperty Name="Id_Departamento" ColumnName="Id_Departamento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Adm_Departamento" ColumnName="Adm_Departamento" />
+          <ScalarProperty Name="Dependencia" ColumnName="Dependencia" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Id_Empleado" ColumnName="Id_Empleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleadoes">
+      <EntityTypeMapping TypeName="EmpleadoDBModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="Id_Empleado" ColumnName="Id_Empleado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido_Uno" ColumnName="Apellido_Uno" />
+          <ScalarProperty Name="Apellido_Dos" ColumnName="Apellido_Dos" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

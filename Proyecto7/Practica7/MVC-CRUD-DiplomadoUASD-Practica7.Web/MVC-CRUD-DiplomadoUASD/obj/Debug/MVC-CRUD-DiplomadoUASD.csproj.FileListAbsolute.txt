@@ -1,0 +1,12 @@
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\MVC-CRUD-DiplomadoUASD.dll.config
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\MVC-CRUD-DiplomadoUASD.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\MVC-CRUD-DiplomadoUASD.pdb
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\EntityFramework.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\EntityFramework.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\obj\Debug\MVC-CRUD-DiplomadoUASD.csprojAssemblyReference.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\obj\Debug\MVC-CRUD-DiplomadoUASD.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\obj\Debug\MVC-CRUD-DiplomadoUASD.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\obj\Debug\MVC-CRUD-DiplomadoUASD.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\Practicas\Proyecto7\Practica7\MVC-CRUD-DiplomadoUASD-Practica7.Web\MVC-CRUD-DiplomadoUASD\obj\Debug\MVC-CRUD-DiplomadoUASD.pdb
