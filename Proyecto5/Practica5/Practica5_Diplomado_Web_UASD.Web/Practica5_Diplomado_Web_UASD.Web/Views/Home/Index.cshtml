@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Practica5_Diplomado_Web_UASD.Web.Models.Producto>
+@{
+    ViewBag.Title = "Listado de productos";
+}
+
+<h1>Lista de Productos</h1>
+<div class="html">
+    <style type="text/css">
+        table.tableizer-table {
+            font-size: 16px;
+            border: 1px solid #CCC;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tableizer-table td {
+            padding: 4px;
+            margin: 3px;
+            border: 4px solid #CCC;
+        }
+
+        .tableizer-table th {
+            background-color: #104E8B;
+            color: #FFF;
+            font-weight: bold;
+        }
+    </style>
+</div>
+
+<table class="tableizer-table">
+    <tr class="tableizer-firstrow">
+        <th>
+            ID Producto
+        </th>
+        <th></th>
+
+        <th>
+            Descripcion de producto
+        </th>
+        <th></th>
+
+        <th>
+            Precio producto
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.IdProducto)
+            </th>
+            <th></th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Decripcion)
+            </th>
+            <th></th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </th>
+            <th></th>
+        </tr>
+    }
+</table>
