@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\CHIP\\Desktop\\Diplomado WEB C#\\Practicas\\Proyecto6\\DasarrolloWebMVC_Pelicula\\DasarrolloWebMVC_Pelicula.Web\\DasarrolloWebMVC_Pelicula.Web.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

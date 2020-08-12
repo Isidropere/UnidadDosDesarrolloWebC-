@@ -1,0 +1,82 @@
+﻿@model DasarrolloWebMVC_Pelicula.Web.Models.Pelicula
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Modificar</title>
+</head>
+<body>
+
+
+
+    <div>
+        <form method="post" action="/Home/Modificar">
+            <h1>Modificar pelicula</h1>
+            <table class="tableizer-table">
+
+                <tr>
+                    <td class="auto-style2">Codigo</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.Codigo)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Titulo</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.Titulo)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Director</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.Director)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Autor Principal</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.AutorPrincipal)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2"> N: autores</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.NumAutor)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="auto-style2">Duracion</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.Duracion)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="auto-style2">Estreno</td>
+                    <th></th>
+                    <td>
+                        @Html.EditorFor(model => model.Estreno)
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <button class="auto-style2" type="submit">Confirmar</button>
+            <button> @Html.ActionLink("Volver atra", "Index")</button>
+        </form>
+    </div>
+    <br />
+</body>
+</html>

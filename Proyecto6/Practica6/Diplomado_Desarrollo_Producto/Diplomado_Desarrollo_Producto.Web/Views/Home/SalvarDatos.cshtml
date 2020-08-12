@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SalvarDatos</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/Home/SalvarDatos">
+            <h1>Agregar Producto</h1>
+            <table class="tableizer-table">
+                <tr>
+                    <td class="auto-style2">Descripcion</td>
+                    <th></th>
+                    <td>
+                        <input type="text" name="Descripcion" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Tipo producto</td>
+                    <th></th>
+                    <td>
+                        <input type="text" name="Tipo" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Precio</td>
+                    <th></th>
+                    <td>
+                        <input type="text" name="Precio" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <button class="auto-style2" type="submit">Confirmar</button>
+            <button> @Html.ActionLink("Volver atra", "Index")</button>
+        </form>
+    </div>
+</body>
+</html>

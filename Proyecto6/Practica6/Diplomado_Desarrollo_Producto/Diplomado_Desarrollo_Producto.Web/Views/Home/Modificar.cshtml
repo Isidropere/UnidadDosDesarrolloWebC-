@@ -1,0 +1,58 @@
+﻿@model Diplomado_Desarrollo_Producto.Web.Models.Producto
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Modificar</title>
+</head>
+<body>
+    <div> 
+        <form method="post" action="/home/Modificar">
+            <h1>Modificar Producto</h1>
+            <table class="auto-style1>
+
+                <tr class="auto-style2">
+                    <td>
+                        @Html.EditorFor(model => model.ID)
+                    <th></th>
+                    </td>
+                </tr>
+
+
+                <tr class="auto-style2">
+                    <td>
+                        @Html.EditorFor(model => model.Descripcion)
+                    <th></th>
+                    </td>
+                </tr>
+
+                <tr class="auto-style2">
+                    <td>
+                        @Html.EditorFor(model => model.Tipo)
+                    <th></th>
+                    </td>
+                </tr>
+
+                <tr class="auto-style2">
+                    <td>
+                        @Html.EditorFor(model => model.Precio)
+                    <th></th>
+                    </td>
+                </tr>
+
+            </table>
+            <br />
+
+            <button> @Html.ActionLink("Volver atra", "Index")</button>
+            <button class="auto-style2" type="submit">Confirmar</button>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Diplomado_Desarrollo_Producto.Web.Models.Producto>
+@{
+    ViewBag.Title = "Lista de Productor";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<h1>Listado de Productos</h1>
+<body>
+    <div>
+        <table class="auto-style1">
+            <tr class="auto-style2">
+                <th>
+                   ID
+                </th>
+                <th></th>
+
+                <th>
+                    Descripcion Producto
+                </th>
+                <th></th>
+
+                <th>
+                    Tipo
+                </th>
+                <th></th>
+
+                <th>
+                    Precio
+                </th>
+                <th></th>
+            </tr>
+            @foreach (var producto in  Model)
+            {
+                <tr class="auto-style2">
+                    <th>
+                        @Html.DisplayFor(modelItem => producto.ID)
+                    </th>
+                    <th></th>
+
+                    <th>
+                        @Html.DisplayFor(modelItem => producto.Descripcion)
+                    </th>
+                    <th></th>
+
+                    <th>
+                        @Html.DisplayFor(modelItem => producto.Tipo)
+                    </th>
+                    <th></th>
+
+                    <th>
+                        @Html.DisplayFor(modelItem => producto.Precio)
+                    </th>
+                    <th></th>
+                    <th>
+                        || <button> <a href="/Home/BorrarProducto?ID=@producto.ID">Borra</a></button>
+                    </th>
+                    <th>
+                        <button> <a href="/Home/Modificar?ID=@producto.ID">Modifica</a></button>
+                    </th>
+                </tr>
+            }
+        </table>
+        <button>  <a href="/Home/SalvarDatos">Agregar</a> </button>
+</div>
+
+</body>
+</html>
