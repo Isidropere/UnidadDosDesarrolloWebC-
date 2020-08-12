@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\CHIP\\Desktop\\Diplomado WEB C#\\Practicas\\Proyecto4\\IP_Proyecto4DiplmadoWebMVCRegistro\\IP_Proyecto4_Diplmado_Web_MVC_Registro\\IP_Proyecto4_Diplmado_Web_MVC_Registro.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
